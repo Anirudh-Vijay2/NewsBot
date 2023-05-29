@@ -9,8 +9,8 @@ import os
 import platform
 from PIL import Image, ImageDraw, ImageFont
 bot = Bot()
-bot.login(username="thenewssage", password="u4njF!kAt4Di7SF")
-key = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=8127727ffc49478ab6685dd16fadc301"
+bot.login(username="Your_User_ID", password="Your_Password")
+key = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=Your_API_KEY"
 i = 0
 done = []
 while i != 20:
